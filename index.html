@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;500&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" />
+  <!--font awsome link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Josefin Sans', sans-serif;
+      box-sizing: border-box;
+    }
+
+    .logo {
+      font-size: 30px;
+      padding-right: 15px;
+    }
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+    * {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    img {
+      height: 280px;
+    }
+
+    body {
+      background: hsl(0, 0, 94%);
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- nevigation section start -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+      <a class="navbar-brand" href="#">N!K$
+        <i class="bi bi-emoji-smile"></i>
+        HOTEL</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">HOME<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#photos">PHOTOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">OUR TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#report">HOTEL REPORT</a>
+          </li>
+
+
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!-- nevigation section end -->
+
+
+    <!--carousel start-->
+    <div class="home">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/1.jpg" alt="Los Angeles" width="1100" height="500">
+
+          </div>
+          <div class="carousel-item">
+            <img src="images/2.jpg" alt="Chicago" width="1100" height="500">
+
+          </div>
+          <div class="carousel-item">
+            <img src="images/3.jpg" alt="New York" width="1100" height="500">
+
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+
+
+  </header>
+  <!--carousel end-->
+
+  <!--services section start-->
+  <section class="container ourservices text-center" id="services">
+    <h1>SERVICES</h1>
+    <div class="row rowsetting">
+      <div class="col-lg-4  col-md-4 col-12 d-block m-auto ">
+        <div class="imgsetting d-block m-auto btn-warning ">
+          <i class="fa fa-signal fa-3x logo text-white"></i>
+
+        </div>
+        <h2>Wi-Fi Internet</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, harum. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Fugit, velit!</p>
+      </div>
+
+      <div class="col-lg-4  col-md-4 col-12 d-block m-auto ">
+        <div class="imgsetting d-block m-auto btn-warning">
+          <i class="fa fa-paper-plane-o fa-3x  logo1 text-white"></i>
+
+        </div>
+        <h2>24/7 Service</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, harum. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Fugit, velit!</p>
+      </div>
+
+      <div class="col-lg-4  col-md-4 col-12 d-block m-auto ">
+        <div class="imgsetting d-block m-auto btn-warning">
+          <i class="fa fa-bullseye fa-3x logo2 text-white"></i>
+
+
+        </div>
+        <h2>Room Service</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, harum. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Fugit, velit!</p>
+      </div>
+
+    </div>
+
+
+  </section>
+  <!--services section end-->
+
+
+
+  <!--photos start-->
+  <section id="photos">
+    <div class="container-fluid">
+      <h1 class="text-center text-capitalize pic mb-5 ">PHOTOS</h1>
+
+
+
+      <div class="row">
+        <div class="col-12 m-auto">
+          <div class="owl-carousel owl-theme">
+            <div class="item mb-4">
+              <div class="card border-0 shadow">
+                <img src="images/c1.jpg" alt="" class="card-img-top">
+
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="card border-0 shadow">
+                <a href="images/c2.jpg">
+                  <img src="images/c2.jpg" alt="" class="card-img-top">
+                </a>
+              </div>
+            </div>
+
+
+
+            <div class="item">
+              <div class="card border-0 shadow">
+                <img src="images/c3.jpg" alt="" class="card-img-top">
+
+              </div>
+            </div>
+            <div class="item">
+              <div class="card border-0 shadow">
+                <img src="images/c4.jpg" alt="" class="card-img-top">
+
+              </div>
+            </div>
+            <div class="item">
+              <div class="card border-0 shadow">
+                <img src="images/c5.jpg" alt="" class="card-img-top">
+
+              </div>
+            </div>
+            <div class="item">
+              <div class="card border-0 shadow">
+                <img src="images/c6.jpg" alt="" class="card-img-top">
+
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--photos section end-->
+
+
+  <!--our team section start-->
+  <section class="container ourservices text-center" id="team">
+    <h1>OUR TRAINERS</h1>
+    <div class="row rowsetting">
+      <div class="col-lg-3  col-md-3 col-12 d-block m-auto ">
+        <div class=" d-block m-auto">
+          <img src="images/01.jpg" class="rounded-circle" alt="Cinque Terre">
+        </div>
+
+        <p>Jos Buttler</p>
+      </div>
+
+      <div class="col-lg-3  col-md-3 col-12 d-block m-auto ">
+        <div class=" d-block m-auto">
+          <img src="images/02.jpg" class="rounded-circle" alt="Cinque Terre">
+
+        </div>
+
+        <p>Alexandra</p>
+      </div>
+
+      <div class="col-lg-3  col-md-3 col-12 d-block m-auto ">
+        <div class="d-block m-auto">
+          <img src="images/03.jpg" class="rounded-circle" alt="Cinque Terre">
+
+
+        </div>
+        <p>David Miller</p>
+      </div>
+
+
+      <div class="col-lg-3  col-md-3 col-12 d-block m-auto ">
+        <div class=" d-block m-auto">
+          <img src="images/04.jpg" class="rounded-circle" alt="Cinque Terre">
+
+        </div>
+        <p>Samantha</p>
+      </div>
+
+    </div>
+
+
+  </section>
+  <!--our team section end-->
+
+
+  <!--About us section start-->
+  <section id="about">
+    <div class=" container-fluid about text-center ">
+      <h1 style="color: white;">About Us</h1>
+      <div class="row rowsetting">
+        <div class="col-lg-6 col-md-6 col-12 d-block m-auto ">
+          <div class=" d-block m-auto">
+            <img src="images/a1.jpg" class="rounded" alt="Cinque Terre">
+          </div>
+
+
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-12 d-block m-auto about1 ">
+          <div class=" d-block m-auto">
+            <h2>Our Hotel</h2>
+            <p>Lorem ipsum dolor Lorem ipsum, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, dicta?
+              dolor sit amet consectetur adipisicing elit. Porro, molestias? sit amet, Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Ex maiores illum architecto vitae quaerat eligendi sint quo, nostrum impedit
+              numquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, cum. consectetur adipisicing
+              elit. Quo aliquam omnis obcaecati placeat aperiam dolore, tenetur voluptatem optio est! Saepe nam rerum
+              maxime rem sequi pariatur at animi totam? Sit quis dignissimos in, numquam nesciunt exercitationem error,
+              aut quia facilis ipsam aliquam eaque dicta delectus. Quos quidem a consequatur ab.</p>
+          </div>
+
+
+        </div>
+
+
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+    </div>
+
+    </div>
+  </section>
+
+  <!--About us Section end-->
+
+  <div class=" pt-5 "></div>
+  <!--Hotel Report  start-->
+  <section id="report">
+    <div class="container report">
+      <h1 class="text-center text-capitalize pt-5  rpt ">HOTEL REPORT</h1>
+      <div class="row text-center pt-5">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div>
+            <div class="hotel_report" data-digit="6850" data-duration="1000">6850</div>
+            <strong>Customers</strong>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div>
+            <div class="hotel_report" data-digit="1465" data-duration="1000">1465</div>
+            <strong>Rooms</strong>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div>
+            <div class="hotel_report" data-digit="4325" data-duration="1000">4325</div>
+            <strong>Dishes</strong>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div>
+            <div class="hotel_report" data-digit="2568" data-duration="1000">2568</div>
+            <strong>Parties</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Hotel Report end-->
+
+
+  <!--footer start-->
+  <div class=" container-fluid footer bg-dark ">
+    <footer class="pt-5">
+      <div class="row">
+        <div class="col-2">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+
+        <div class="col-2">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+
+        <div class="col-2">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+
+        <div class="col-4 offset-1">
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of whats new and exciting from us.</p>
+            <div class="d-flex w-100 ">
+              <label for="support" class="visually-hidden">Email address</label>
+              <input id="support" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-between pt-4 mt-4 border-top icon ">
+        <p>© 2021 Hotel, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex social">
+          <li class="ms-3"><a class="link-light" href="#"><i class="bi bi-twitter "></i></a></li>
+          <li class="ms-3"><a class="link-light" href="#"><i class="bi bi-instagram "></i></a></li>
+          <li class="ms-3"><a class="link-light" href="#"><i class="bi bi-facebook "></i></a></li>
+          <li class="ms-3"><a class="link-light" href="#"><i class="bi bi-whatsapp "></i></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <!--footer end-->
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 15,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>
